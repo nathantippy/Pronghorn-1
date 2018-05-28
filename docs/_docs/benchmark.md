@@ -3,7 +3,11 @@ title: "Benchmarks"
 permalink: /docs/benchmarks/
 toc: true
 ---
-Check back later for more benchmarks.
+## Pronghorn
+
+![](assets/images/PH_Latency.png)
+![](assets/images/PH_Log_Latency.png)
+![](assets/images/PH_Volume.png)
 
 ## GreenLightning
 GreenLightning is an embeddable high-performance microservice framework with built-in HTTP and MQTT support, built with Pronghorn.
