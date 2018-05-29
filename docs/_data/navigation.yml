@@ -58,7 +58,7 @@ docs:
         url: /docs/web-cookbook
   - title: JavaDoc
     children:
-      - title: "Pronghorn"
+      - title: "Pronghorn (0.0.1-SNAPSHOT)"
         url: https://objectcomputing.github.io/Pronghorn/javadoc/Pronghorn/index.html
-      - title: "PronghornPipes"
+      - title: "PronghornPipes (0.0.1-SNAPSHOT)"
         url: https://objectcomputing.github.io/Pronghorn/javadoc/PronghornPipes/index.html
