@@ -222,6 +222,8 @@ GraphManager.addDefaultNota(gm, GraphManager.SCHEDULE_RATE, 500);
     </tr>
 </table>
 
+
+
 ### Example
 A stage constructor with a custom background color in the telemetry can look like this:
 ```java
