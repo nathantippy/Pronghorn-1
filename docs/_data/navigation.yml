@@ -56,9 +56,9 @@ docs:
         url: /docs/jpg-raster
       - title: "Web Cookbook"
         url: /docs/web-cookbook
-- title: JavaDoc
-    children:
-      - title: "Pronghorn"
-        url: /jdoc/Pronghorn/
-      - title: "PronghornPipes"
-        url: /jdoc/PronghornPipes/
+  - title: JavaDoc
+      children:
+        - title: "Pronghorn"
+          url: /jdoc/Pronghorn/
+        - title: "PronghornPipes"
+          url: /jdoc/PronghornPipes/
