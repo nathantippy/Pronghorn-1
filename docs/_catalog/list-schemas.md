@@ -3,42 +3,92 @@ title: "Schemas"
 permalink: /catalog/list-schemas
 toc: true
 ---
-### RawDataSchema
-***
-<table class="catalog-table">
-    <tr><th>Description</th><td>Used for raw data passing. Often used if no fitting schema is yet available.</td></tr>
-    <tr><th>Schema</th><td><code>rawDataSchema.xml</code></td></tr>
-    <tr><th>Project</th><td>PronghornPipes</td></tr>
-</table>
+## Pronghorn
 
-### HTTPRequestSchema
-***
-<table class="catalog-table">
-    <tr><th>Description</th><td>Defines a HTTP request, including verbs, parameters, and more.</td></tr>
-    <tr><th>Schema</th><td><code>HTTPRequest.xml</code></td></tr>
-    <tr><th>Project</th><td>Pronghorn</td></tr>
-</table>
+### AlertNoticeSchema
+Defines alert notices.
 
-### ServerResponseSchema
 ***
-<table class="catalog-table">
-    <tr><th>Description</th><td>Defines server response from a HTTP request, including payload and context.</td></tr>
-    <tr><th>Schema</th><td><code>serverResponse.xml</code></td></tr>
-    <tr><th>Project</th><td>Pronghorn</td></tr>
-</table>
 
-### NetResponseSchema
+### BlockManagerRequestSchema
+Defines a request to the block manager.
+
 ***
-<table class="catalog-table">
-    <tr><th>Description</th><td>Describes general response from a server, not specific to HTTP.</td></tr>
-    <tr><th>Schema</th><td><code>NetResponse.xml</code></td></tr>
-    <tr><th>Project</th><td>Pronghorn</td></tr>
-</table>
+
+### BlockManagerResponseSchema
+Defines block responses.
+
+***
+
+### BlockStorageReceiveSchema
+Defines how block storage is received.
+
+***
 
 ### ClientHTTPRequestSchema
+Defines a client hTTP request. Includes payload, headers, destination, session, port, host, path,<br/>and more required for a functioning HTTP client.
+
 ***
-<table class="catalog-table">
-    <tr><th>Description</th><td>Defines a client HTTP request to a HTTP server.</td></tr>
-    <tr><th>Schema</th><td><code>ClientHTTPRequest.xml</code></td></tr>
-    <tr><th>Project</th><td>Pronghorn</td></tr>
-</table>
+
+### ColumnSchema
+Represents a column inside a matrix.
+
+***
+
+### HTTPLogRequestSchema
+Defines how HTTP logging of a request works.
+
+***
+
+### HTTPRequestSchema
+Defines what a HTTP request looks like. This includes basics such as the verb (GET, POST, etc...), parameters, but lso<br/>request context, channel ID, the binary payload, if it is a REST request, and more.
+
+***
+
+### NetPayloadSchema
+Defines a typical payload for the net. This is used by HTTP, MQTT, and more. Fields include if payload<br/>is encrypted, when it arrived, position, connection, a new route if required, and more.
+
+***
+
+### NetResponseSchema
+Defines a typical networked response. Includes payload, context, connection, host, port, and more.
+
+***
+
+### RawDataSchema
+Defines raw binary data. Basic building block if no other schema is available.
+
+***
+
+### ReleaseSchema
+Defines release messages. These are acknowledgments to be sent back to another stage to let them know<br/>that a pipe is free or a task has finished. Use Position and SequenceNo fields to indicate where operation<br/>has ceased.
+
+***
+
+### SequentialCtlSchema
+Defines sequential control behavior.
+
+***
+
+### ServerConnectionSchema
+Defines how a connection to a server is established.
+
+***
+
+### ServerResponseSchema
+Defines how a server response is formatted, including channel information, payload,<br/>request , subscriptions, sequence, and more.
+
+***
+
+### TestDataSchema
+Writes int to specified pipe<br/>@param output pipe to write to<br/>@param fieldIntValue int to write
+
+***
+
+## JPG-Raster
+
+### JPGSchema
+Defines a JPG image. This includes headers, filename, MCUs, quantization tables, color components,
+<br/>and more.
+
+***
