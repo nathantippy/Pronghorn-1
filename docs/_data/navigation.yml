@@ -57,8 +57,8 @@ docs:
       - title: "Web Cookbook"
         url: /docs/web-cookbook
   - title: JavaDoc
-      children:
-        - title: "Pronghorn"
-          url: /jdoc/Pronghorn/
-        - title: "PronghornPipes"
-          url: /jdoc/PronghornPipes/
+    children:
+      - title: "Pronghorn"
+        url: /jdoc/Pronghorn/
+      - title: "PronghornPipes"
+         url: /jdoc/PronghornPipes/
