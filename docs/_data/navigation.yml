@@ -59,6 +59,6 @@ docs:
   - title: JavaDoc
     children:
       - title: "Pronghorn"
-        url: /jdoc/Pronghorn/
+        url: /docs/jpg-raster
       - title: "PronghornPipes"
-         url: /jdoc/PronghornPipes/
+        url: /docs/web-cookbook
