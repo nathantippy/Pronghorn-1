@@ -11,8 +11,6 @@ catalog:
     children:
       - title: "Catalog"
         url: /catalog/home/
-      - title: "Formatting Guide"
-        url: /catalog/format
   - title: Catalog
     children:
       - title: "Schemas"
