@@ -14,22 +14,7 @@ To simplify creation of a Pronghorn project, we created PronghornRanch, a Maven 
 
 ***
 
-
-First, `clone` the PronghornRanch repository onto your machine:
-
-```
-git clone https://github.com/oci-pronghorn/PronghornRanch.git
-```
-
-Next, `cd` into the PronghornRanch directory and allow Maven to recognize and install the archetype:
-
-```
-cd PronghornRanch
-mvn install
-```
-
-`cd` into the directory in which you want your new project to reside in, and run the following command:
-
+Open up a command line, `cd` into the folder which will contain your new project, and copy paste the following:
 ```
 mvn archetype:generate -DarchetypeGroupId=com.ociweb -DarchetypeArtifactId=PronghornRanch -DarchetypeVersion=1.0.0
 ```
@@ -53,7 +38,9 @@ cd YOUR_PROJECT_NAME
 mvn install
 ```
 
-If all goes well, your Pronghorn project is now ready. Open up your project folder in your favorite IDE and start coding.
+If all goes well, your Pronghorn project is now ready. Open up your project folder in your favorite IDE and start coding.]
+
+If you would like to re-build PronghornRanch, please see [here](#building-custom-pronghornranch).
 
 ## Working with the Sample Project
 Your newly generated project now contains a basic Pronghorn example and its source code. The example takes in a file by argument, creates a new graph, populates this graph with pipes and stages required to read, duplicate, and output the file, enables telemetry, and starts the default scheduler.
@@ -96,4 +83,28 @@ Add the following repository if you are below <1.0:
 	<url>http://repository-pronghorn.forge.cloudbees.com/snapshot/</url>
 	<layout>default</layout>
 </repository>
+```
+
+## Building custom PronghornRanch
+
+This is only necessary if you would like to edit PronghornRanch yourself. Otherwise, just use the archetype found
+in Maven central.
+
+First, `clone` the PronghornRanch repository onto your machine:
+
+```
+git clone https://github.com/oci-pronghorn/PronghornRanch.git
+```
+
+Next, `cd` into the PronghornRanch directory and allow Maven to recognize and install the archetype:
+
+```
+cd PronghornRanch
+mvn install
+```
+
+`cd` into the directory in which you want your new project to reside in, and run the following command:
+
+```
+mvn archetype:generate -DarchetypeGroupId=com.ociweb -DarchetypeArtifactId=PronghornRanch -DarchetypeVersion=1.0.0
 ```
