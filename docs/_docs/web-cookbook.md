@@ -12,7 +12,7 @@ serve files from disk and the resource folder.
 * Maven
 
 ## How to use it
-Download the source code on the GitHub page ([here](https://github.com/oci-pronghorn/WebCookbook/blob/master/src/main/java/com/ociweb/WebCookbook.java)).
+Download the source code on the GitHub page ([here](https://github.com/oci-pronghorn/WebCookbook/)).
 Extract the source and place it somewhere with write and read access on your system.
 
 Run the following command in the directory with your source:

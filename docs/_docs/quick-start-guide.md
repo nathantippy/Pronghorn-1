@@ -31,7 +31,7 @@ mvn install
 `cd` into the directory in which you want your new project to reside in, and run the following command:
 
 ```
-mvn archetype:generate -DarchetypeGroupId=com.ociweb -DarchetypeArtifactId=PronghornRanch -DarchetypeVersion=0.0.1-SNAPSHOT
+mvn archetype:generate -DarchetypeGroupId=com.ociweb -DarchetypeArtifactId=PronghornRanch -DarchetypeVersion=1.0.0
 ```
 
 You will then be prompted to enter the following properties:
@@ -40,7 +40,7 @@ You will then be prompted to enter the following properties:
 -----|-----|-----
 groupID|None|Type in `com.ociweb`
 artifactID|None|Type in the name of your project
-version|1.0-SNAPSHOT|Ignore
+version|1.0.0|Ignore
 package|com.ociweb|Ignore
 
 Then, hit enter or type in "Y" to continue. Press any other key to restart the process.
@@ -78,11 +78,11 @@ You are not required to use PronghornRanch to start your Pronghorn project. You 
 <dependency>
 	<groupId>com.ociweb</groupId>
 	<artifactId>Pronghorn</artifactId>
-	<version>0.0.10-SNAPSHOT</version>
+	<version>1.0.0</version>
 </dependency>
 ```
 
-Add the following repository if you are using <1.0 release:
+Add the following repository if you are below <1.0:
 ```xml
 <repository>
 	<releases>

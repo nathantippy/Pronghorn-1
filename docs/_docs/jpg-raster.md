@@ -28,7 +28,7 @@ Start a new Maven project and add this to your pom:
 <dependency>
 	<groupId>com.ociweb.jpgRaster</groupId>
 	<artifactId>JPGRaster</artifactId>
-	<version>1.0-SNAPSHOT</version>
+	<version>1.0.0</version>
 </dependency>
 ```
 
