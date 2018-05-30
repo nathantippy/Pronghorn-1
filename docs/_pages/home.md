@@ -7,7 +7,7 @@ header:
   cta_label: "<i class='fas fa-code'></i> Get started"
   cta_url: "/docs/quick-start-guide/"
   caption:
-excerpt: 'Pragmatic approach to a staged event driven<br/ > single machine embedded micro-framework.<br /> <br /><br /> {::nomarkdown}{:/nomarkdown}'
+excerpt: 'Pragmatic approach to a staged event driven\n single machine embedded micro-framework.<br /> <br /><br /> {::nomarkdown}{:/nomarkdown}'
 feature_row:
   - image_path: /assets/images/actor-framework.png
     alt: "actor-based"
