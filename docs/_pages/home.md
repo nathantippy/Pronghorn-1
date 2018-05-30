@@ -7,12 +7,12 @@ header:
   cta_label: "<i class='fas fa-code'></i> Get started"
   cta_url: "/docs/quick-start-guide/"
   caption:
-excerpt: 'Pragmatic approach to a staged event driven single machine embedded micro-framework.<br /> <br /><br /> {::nomarkdown}{:/nomarkdown}'
+excerpt: 'Pragmatic approach to a staged event driven<br/ > single machine embedded micro-framework.<br /> <br /><br /> {::nomarkdown}{:/nomarkdown}'
 feature_row:
   - image_path: /assets/images/actor-framework.png
     alt: "actor-based"
     title: "Actor-based Framework"
-    excerpt: "Pronghorn is a reactive actor-based framework, built with Java 8. With business aware scheduling, Pronghorn allows developers to build powerful products without worrying about thread safety, scheduling, or other."
+    excerpt: "Pronghorn is a reactive actor-based framework, built with Java 8. With business aware scheduling, Pronghorn allows developers to build powerful products without worrying about thread safety, scheduling, etc..."
     url: "/docs/features/"
     btn_class: "btn--primary"
     btn_label: "Learn More"

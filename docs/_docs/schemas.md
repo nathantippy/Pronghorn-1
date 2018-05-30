@@ -14,7 +14,7 @@ Concern yourself with data flow first. For example, draw out the data flow on a 
 
 **2. Define your XML schema as demonstrated in the Example Schema below**
 
-We FAST to define our messages. Create a new XML file in the `test/resources` folder of your new PronghornRanch project, formatted as `SchemaNAME.xml`. Edit the Example Schema to get started, using grouping, descriptive field names, and appropriate types as enumerated in Step 1.
+We utilize the [FAST Protocol](https://www.fixtrading.org/standards/fast/) to define our messages. Create a new XML file in the `test/resources` folder of your new PronghornRanch project, formatted as `SchemaNAME.xml`. Edit the Example Schema to get started, using grouping, descriptive field names, and appropriate types as enumerated in Step 1.
 
 **Note:** There is a known issue regarding shorts in the parser (they do not get generated). For now, use integers instead.
 
@@ -68,7 +68,6 @@ public class SchemaTest {
 Your schema is now ready for use. You can now define pipes using your schema. See [Building Custom Stages](../stages/).
 
 ## Supported Types
-**Note:** PHAST does not support all types specified in FAST 1.0.
 
 |Name       |Tag                    |Notes    |
 |-----------|-------------------------|---------|

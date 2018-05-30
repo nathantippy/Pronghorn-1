@@ -38,7 +38,7 @@ cd YOUR_PROJECT_NAME
 mvn install
 ```
 
-If all goes well, your Pronghorn project is now ready. Open up your project folder in your favorite IDE and start coding.]
+If all goes well, your Pronghorn project is now ready. Open up your project folder in your favorite IDE and start coding.
 
 If you would like to re-build PronghornRanch, please see [here](#building-custom-pronghornranch).
 
