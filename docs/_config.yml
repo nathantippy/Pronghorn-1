@@ -191,6 +191,9 @@ collections:
   catalog:
     output: true
     permalink: /:collection/:path/
+  javadoc:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
