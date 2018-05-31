@@ -7,6 +7,9 @@ toc: true
 The web cookbook demonstrates how to perform REST calls, create proxy requests, utilize blocking calls against databases (H2 in this project), and
 serve files from disk and the resource folder.
 
+## Preview
+<img style="width:450px;" src="/Pronghorn/assets/images/webcookbook.jpeg" />
+
 ## What do I need?
 * Java 8
 * Maven
