@@ -69,22 +69,6 @@ You are not required to use PronghornRanch to start your Pronghorn project. You 
 </dependency>
 ```
 
-Add the following repository if you are below <1.0:
-```xml
-<repository>
-	<releases>
-		<enabled>false</enabled>
-	</releases>
-	<snapshots>
-		<enabled>true</enabled>
-	</snapshots>
-	<id>repository-pronghorn.forge.cloudbees.com</id>
-	<name>Active Repo for PronghornPipes</name>
-	<url>http://repository-pronghorn.forge.cloudbees.com/snapshot/</url>
-	<layout>default</layout>
-</repository>
-```
-
 ## Building custom PronghornRanch
 
 This is only necessary if you would like to edit PronghornRanch yourself. Otherwise, just use the archetype found

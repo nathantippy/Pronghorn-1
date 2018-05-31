@@ -16,7 +16,8 @@ Below is recorded live footage of the telemetry of a Pronghorn project that enco
 <img style="width:250px;" src="/Pronghorn/assets/gifs/encoding-jpgs-1.gif" />
 
 ## What is Pronghorn?
-Pronghorn is a pragmatic approach to an actor based framework. It is a staged event driven single machine embedded micro-framework written in Java, designed to be garbage-free, have a small memory footprint, and be as performant as possible.
+Pronghorn is a pragmatic approach to an actor based framework.
+It is a staged event driven single machine embedded micro-framework written in Java, designed to be garbage-free, have a small memory footprint.
 
 ## Examples
 For a project built completely with Pronghorn, there is GreenLighting, an incredibly fast & lightweight microservices framework.
