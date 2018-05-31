@@ -51,7 +51,7 @@ System.out.println("This is what's inside the strong tag: " + tag);
     <tr>
         <td>Name</td>
         <td>Description</td>
-        <td>Symbol</td>
+        <td>Example</td>
     </tr>
     <tr>
         <td>Optional Signed Integer</td>
@@ -80,13 +80,13 @@ System.out.println("This is what's inside the strong tag: " + tag);
     </tr>
     <tr>
         <td>Decimal</td>
-        <td>If found capture u and places else captures zero and 1 place</td>
-        <td><code>%.</code></td>
+        <td>If value is found after dot, capture it. Otherwise, a 0 is captured.</td>
+        <td><code>%i%.</code></td>
     </tr>
     <tr>
         <td>Rational</td>
-        <td>If found capture i else captures 1</td>
-        <td><code>%/</code></td>
+        <td>If value is found after dot, capture it. Otherwise, a 0 is captured. Always after i, dot, or u.</td>
+        <td><code>%i%/</code></td>
     </tr>
     <tr>
         <td>Bytes/String</td>
