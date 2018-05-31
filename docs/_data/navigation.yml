@@ -4,6 +4,8 @@ main:
     url: /docs/home/
   - title: "Catalog"
     url: /catalog/home/
+  - title: "JavaDoc"
+    url: /javadoc/home/
 
 # catalog links
 catalog:
@@ -17,6 +19,21 @@ catalog:
         url: /catalog/list-schemas
       - title: "Stages"
         url: /catalog/list-stages
+
+# JavaDoc links
+javadoc:
+  - title: Overview
+    children:
+      - title: "Catalog"
+        url: /javadoc/home/
+  - title: JavaDoc
+    children:
+      - title: "Pronghorn"
+        url: https://objectcomputing.github.io/Pronghorn/javadoc_ref/Pronghorn/index.html
+      - title: "PronghornPipes"
+        url: https://objectcomputing.github.io/Pronghorn/javadoc_ref/PronghornPipes/index.html
+      - title: "JPG-Raster"
+        url: https://objectcomputing.github.io/Pronghorn/javadoc_ref/JPG-Raster/index.html
 
 # documentation links
 docs:
@@ -54,11 +71,3 @@ docs:
         url: /docs/jpg-raster
       - title: "Web Cookbook"
         url: /docs/web-cookbook
-  - title: JavaDoc
-    children:
-      - title: "Pronghorn"
-        url: https://objectcomputing.github.io/Pronghorn/javadoc/Pronghorn/index.html
-      - title: "PronghornPipes"
-        url: https://objectcomputing.github.io/Pronghorn/javadoc/PronghornPipes/index.html
-      - title: "JPG-Raster"
-        url: https://objectcomputing.github.io/Pronghorn/javadoc/JPG-Raster/index.html
