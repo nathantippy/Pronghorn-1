@@ -25,7 +25,8 @@ For a project built completely with Pronghorn, there is GreenLighting, an incred
 For a real-world example of Pronghorn, please see [JPG-Raster](https://objectcomputing.github.io/Pronghorn/docs/jpg-raster/), a fast JPG encoder/decoder.
 
 Another example is the [Web Cookbook](https://objectcomputing.github.io/Pronghorn/docs/web-cookbook). It demonstrates a HTTP file server, proxy, and more:
-<img style="width:250px;" src="/Pronghorn/assets/images/webcookbook.jpeg" />
+
+<img style="width:450px;" src="/Pronghorn/assets/images/webcookbook.jpeg" />
 
 ## What are the benefits of Pronghorn over similar frameworks/languages?
 While Pronghorn is new to the industry, here are some frameworks and languages that have influenced Pronghorn and have similar goals:
