@@ -24,7 +24,7 @@ catalog:
 javadoc:
   - title: Overview
     children:
-      - title: "Catalog"
+      - title: "JavaDoc"
         url: /javadoc/home/
   - title: JavaDoc
     children:
