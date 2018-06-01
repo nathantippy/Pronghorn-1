@@ -8,7 +8,7 @@ The web cookbook demonstrates how to perform REST calls, create proxy requests, 
 serve files from disk and the resource folder.
 
 ## Preview
-<img style="width:450px;" src="/Pronghorn/assets/images/webcookbook.jpeg" />
+[![](/Pronghorn/assets/images/webcookbook.jpeg)](/Pronghorn/assets/images/webcookbook.jpeg)
 
 ## What do I need?
 * Java 8
