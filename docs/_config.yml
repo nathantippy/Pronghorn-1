@@ -239,6 +239,18 @@ defaults:
       comments: false
       sidebar:
         nav: "catalog"
+   # _javaoc
+  - scope:
+      path: ""
+      type: javadoc
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "javadoc"
 
 
 # Sass/SCSS
