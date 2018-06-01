@@ -61,7 +61,6 @@ The project also includes 2 files for testing. The SchemaTest verifies that the 
 ## Without PronghornRanch
 You are not required to use PronghornRanch to start your Pronghorn project. You can start a brand new Maven project and simply add the following dependency:
 
-### On Maven Central:
 ```xml
 <dependency>
 	<groupId>com.ociweb</groupId>
@@ -70,6 +69,7 @@ You are not required to use PronghornRanch to start your Pronghorn project. You 
 </dependency>
 ```
 
+### On Maven Central:
 * [Pronghorn on Maven Central](https://search.maven.org/#artifactdetails%7Ccom.ociweb%7CPronghorn%7C1.0.0%7Cjar)
 * [PronghornPipes on Maven Central](https://search.maven.org/#artifactdetails%7Ccom.ociweb%7CPronghornPipes%7C1.0.0%7Cjar)
 * [PronghornRanch on Maven Central](https://search.maven.org/#artifactdetails%7Ccom.ociweb%7CPronghornRanch%7C1.0.0%7Cmaven-archetype)
