@@ -69,6 +69,10 @@ You are not required to use PronghornRanch to start your Pronghorn project. You 
 </dependency>
 ```
 
+* [Pronghorn on Maven Central](https://search.maven.org/#artifactdetails%7Ccom.ociweb%7CPronghorn%7C1.0.0%7Cjar)
+* [PronghornPipes on Maven Central](https://search.maven.org/#artifactdetails%7Ccom.ociweb%7CPronghornPipes%7C1.0.0%7Cjar)
+* [PronghornRanch on Maven Central](https://search.maven.org/#artifactdetails%7Ccom.ociweb%7CPronghornRanch%7C1.0.0%7Cmaven-archetype)
+
 ## Building custom PronghornRanch
 
 This is only necessary if you would like to edit PronghornRanch yourself. Otherwise, just use the archetype found
