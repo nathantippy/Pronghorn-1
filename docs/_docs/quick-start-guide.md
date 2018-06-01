@@ -61,6 +61,7 @@ The project also includes 2 files for testing. The SchemaTest verifies that the 
 ## Without PronghornRanch
 You are not required to use PronghornRanch to start your Pronghorn project. You can start a brand new Maven project and simply add the following dependency:
 
+### On Maven Central:
 ```xml
 <dependency>
 	<groupId>com.ociweb</groupId>
