@@ -26,7 +26,7 @@ For a real-world example of Pronghorn, please see [JPG-Raster](https://objectcom
 
 Another example is the [Web Cookbook](https://objectcomputing.github.io/Pronghorn/docs/web-cookbook). It demonstrates how to build a HTTP server, proxy, and more:
 
-<img style="width:450px;" src="/Pronghorn/assets/images/webcookbook.jpeg" />
+[![](/Pronghorn/assets/images/webcookbook.jpeg)](/Pronghorn/assets/images/webcookbook.jpeg)
 
 ## What are the benefits of Pronghorn over similar frameworks/languages?
 While Pronghorn is new to the industry, here are some frameworks and languages that have influenced Pronghorn and have similar goals:
