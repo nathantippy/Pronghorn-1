@@ -92,7 +92,7 @@ Below is a recorded live demo of an application written using Pronghorn that qui
 <dependency>
 	<groupId>com.ociweb</groupId>
 	<artifactId>Pronghorn</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>1.0.0</version>
 </dependency> 
 ```
 ------------------------------------------
