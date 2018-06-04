@@ -1,4 +1,5 @@
 com.ociweb.pronghorn
+com.ociweb.pronghorn.annotations
 com.ociweb.pronghorn.code
 com.ociweb.pronghorn.components.ingestion.csv
 com.ociweb.pronghorn.components.ingestion.metaMessageUtil
