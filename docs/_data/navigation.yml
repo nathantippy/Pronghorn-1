@@ -1,11 +1,11 @@
 # main links
 main:
   - title: "Documentation"
-    url: /docs/home/
+    url: https://oci-pronghorn.gitbook.io/pronghorn
   - title: "Catalog"
     url: /catalog/home/
   - title: "JavaDoc"
-    url: /javadoc/home/
+    url: https://oci-pronghorn.gitbook.io/pronghorn/other/javadoc
 
 # catalog links
 catalog:
