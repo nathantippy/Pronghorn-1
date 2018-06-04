@@ -5,7 +5,7 @@ header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/mm-home-page-feature.jpg
   cta_label: "<i class='fas fa-code'></i> Get started"
-  cta_url: "/docs/quick-start-guide/"
+  cta_url: "https://oci-pronghorn.gitbook.io/pronghorn/chapter-1-getting-started-with-pronghorn/1.-hello-world-introduction/0.-getting-started"
   caption:
 excerpt: 'Pragmatic approach to a staged event driven        single machine embedded micro-framework.<br /> <br /><br /> {::nomarkdown}{:/nomarkdown}'
 feature_row:
