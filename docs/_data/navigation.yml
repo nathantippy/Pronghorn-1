@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "Documentation"
-    url: https://oci-pronghorn.gitbook.io/pronghorn
+    url: https://oci-pronghorn.gitbook.io/pronghorn/chapter-0-what-is-pronghorn/home
   - title: "Catalog"
     url: /catalog/home/
   - title: "JavaDoc"
