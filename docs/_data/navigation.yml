@@ -5,7 +5,7 @@ main:
   - title: "Catalog"
     url: /catalog/home/
   - title: "JavaDoc"
-    url: https://oci-pronghorn.gitbook.io/pronghorn/other/javadoc
+    url: https://oci-pronghorn.gitbook.io/pronghorn/javadoc
 
 # catalog links
 catalog:
