@@ -14,6 +14,11 @@ Please refer to the [website](https://oci-pronghorn.gitbook.io/pronghorn/chapter
 
 For a catalog of all availables stages and schemas, please click [here](https://objectcomputing.github.io/Pronghorn/catalog/home/).
 
+### JavaDocs are available here:
+[![](https://github.com/objectcomputing/Pronghorn/blob/master/static/jdoc-pronghorn.png?raw=true)](https://objectcomputing.github.io/Pronghorn/javadoc_ref/Pronghorn/index.html)
+[![](https://github.com/objectcomputing/Pronghorn/blob/master/static/jdoc-pronghornpipes.png?raw=true)](https://objectcomputing.github.io/Pronghorn/javadoc_ref/PronghornPipes/index.html)
+[![](https://github.com/objectcomputing/Pronghorn/blob/master/static/jdoc-jpgraster.png?raw=true)](https://objectcomputing.github.io/Pronghorn/javadoc_ref/JPG-Raster/index.html)
+
 ## Demo
 Below is a recorded live demo of an application written using Pronghorn that quickly encodes and decodes JPG to raster (such as BMP) and vice versa.
 
