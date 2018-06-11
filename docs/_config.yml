@@ -13,7 +13,7 @@ minimal_mistakes_skin    : # "dark" # "air", "aqua", "contrast", "dark", "dirt",
 locale                   : "en-US"
 title                    : "Pronghorn"
 title_separator          : "-"
-name                     : &name "Nathan Tippy" # &name is a YAML anchor which can be *referenced later
+name                     : &name "Object Computing Inc." # &name is a YAML anchor which can be *referenced later
 description              : &description "Website for Pronghorn, a staged event driven single machine embedded micro-framework written in Java, designed to be garbage-free, have a small memory footprint, and be as performant as possible. "
 url                      :  # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/" # the subpath of your site, e.g. "/blog"
