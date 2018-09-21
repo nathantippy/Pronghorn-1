@@ -1,3 +1,7 @@
+NOTE: After clone of this project the following 2 git commands must be run in order to also clone the source
+* git submodule init
+* git submodule update
+
 Pronghorn  [![Powered by CloudBees](https://www.cloudbees.com/sites/default/files/styles/large/public/Button-Powered-by-CB.png?itok=uMDWINfY)](https://pronghorn.ci.cloudbees.com/)
 =====
 
